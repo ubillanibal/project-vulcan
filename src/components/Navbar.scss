@@ -1,0 +1,38 @@
+* {
+  transition: color 0.3s ease;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.navbar-left {
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+.navbar-right {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #2755d4;
+    background-color: yellow;
+  }
+}
